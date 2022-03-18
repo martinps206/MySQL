@@ -46,3 +46,7 @@ create table categorias(
     Nombre varchar(45),
     Comentarios varchar(255)
 );
+
+select categoriaid, comentarios from categorias;
+
+insert into categorias (catefgoriaid, nombre) values (1, "suspenso");
